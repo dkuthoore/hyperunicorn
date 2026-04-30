@@ -2,7 +2,7 @@
 
 This is a small React + TypeScript prototype for the Panoptic take-home assignment. It designs and demos a points system for HyperUnicorn, a hypothetical DeFi protocol with managed vault users and direct perpetual-style traders.
 
-The **normative** Season 1 rules (formulas, ordering, leaderboard semantics, and file map) live in [POINTS_SYSTEM_SPEC.md](POINTS_SYSTEM_SPEC.md); this README focuses on motivation and tradeoffs.
+The **normative** Season 1 rules (formulas, ordering, leaderboard semantics, and file map) live in [Points-System-Spec.md](Points-System-Spec.md); this README focuses on motivation and tradeoffs.
 
 ## Run Locally
 
