@@ -20,7 +20,7 @@ The app has four top-level tabs:
 - **Dashboard** includes a user dashboard and an admin dashboard: users can see their trading activity and points history; admins see aggregate-level statistics.
 - **Next Steps** lists out areas for improvement and things I would implement in a production system.
 
-All scoring inputs are local mock data in `[src/data/](src/data/)`.
+All scoring inputs are local mock data in `src/data/`.
 
 ## Points System
 
