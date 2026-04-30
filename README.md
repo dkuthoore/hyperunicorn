@@ -2,6 +2,8 @@
 
 This is a small React + TypeScript prototype for the Panoptic take-home assignment. It designs and demos a points system for HyperUnicorn, a hypothetical DeFi protocol with managed vault users and direct perpetual-style traders.
 
+The **normative** Season 1 rules (formulas, ordering, leaderboard semantics, and file map) live in [POINTS_SYSTEM_SPEC.md](POINTS_SYSTEM_SPEC.md); this README focuses on motivation and tradeoffs.
+
 ## Run Locally
 
 ```bash
@@ -66,7 +68,7 @@ I wanted to think practically about how points overwhelmingly skew toward whales
 ### Edge Cases
 
 - **Vault Abuse.** People can still game vault dollar-days by moving liquidity around weekly checkpoints without leaving sticky TVL, which is why I pointed at delayed withdrawals in **Next Steps** instead of pretending this mock closes the hole.
-- **Sybil Resistance.** This POC does not account for out-of-protocol sybil activity like wallet clustering. I mentioned we would fitler this activity out after the season. 
+- **Sybil Resistance.** This POC does not account for out-of-protocol sybil activity like wallet clustering. I mentioned we would filter this activity out after the season. 
 - **How average exposure is calculated.** We currently use an average exposure value to mock open positions, but in practice this would need to be measured with snapshots or calculated from real position data.
 
 ## Areas for Improvement and Next Steps
